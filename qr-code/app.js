@@ -9,7 +9,7 @@ function generateQR() {
         qrImage.src = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + inputValue.value;
         imgBox.classList.add("show-img")
     } else {
-        alert('Input a search term or a URL')
+        //alert('Input a search term or a URL first')
         inputValue.classList.add('error');
         setTimeout(()=>{
             inputValue.classList.add('error');
